@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:YOUR_LOCAL_HOST/YOUR_DB_NAME
+    username: YOUR_USER_NAME
+    password: "YOUR_PASSWORD"
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true    # Convenient showing sql requests in console
+    hibernate:
+      ddl-auto: update    # Spring gonna create/update table to suit yours Java class by its self
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
