@@ -30,3 +30,5 @@ The project is covered by Unit tests using **Mockito**:
 1.  Clone the repository.
 2.  Configure `application.properties` (set your PostgreSQL credentials).
 3.  Run the application using Maven or your IDE.
+
+Have a good day!
